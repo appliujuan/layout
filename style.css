@@ -1,0 +1,356 @@
+/*小屏幕显示*/
+body{
+	background:#F6F7F8;
+	}
+@media(min-width:768px){
+	.container{
+		width:750px;
+	}
+}
+@media(min-width:992px){
+	.container{
+		width:970px;
+	}
+}
+@media(min-width:1200px){
+	.container{
+		width:1170px;
+	}
+}
+.navbar-nav{margin-left:100px;}
+
+.row .item{
+	border:0px solid #fff;
+	margin:0px;
+	padding:0px;
+}
+
+.navbar-header a h1{
+	line-height:20px;
+	color:#369;
+    font-size:35px;
+}
+.ft-bg{background:#222;}
+.clear{clear:both;}
+.navbar-nav li a{
+		font-size:18px;
+		color:#fff;
+	}
+.navbar-nav li a:hover {
+		color:#008CD6;
+
+	}
+	.right{
+		float:right;
+	}
+	.left{
+		float:left;
+	}
+	.jumbotron{
+		background:url('./images/wx.jpg')no-repeat;
+		padding-top:30px;
+		background:cover;
+	}
+
+  .row .more a{
+  	text-decoration: none;
+  }
+  .more{
+  	margin-top:7px;
+  	width:70px;
+  	height:27px;
+  	border:1px solid #ccc;
+  	border-radius:10px;
+}
+.picture{position:relative;}
+.carousel-caption{
+	position:absolute;
+	top:110px;
+	right:15%;
+}
+.carousel-caption h3{
+	margin-left:-30px;
+}
+.title-news span:hover{color:#369;}
+.picture h3{text-shadow:0px;}
+.picture p{text-shadow:0px;}
+  .more a{
+  	color:#ccc;
+  }
+  .more:hover a{
+  	
+  	color:#369;
+  }
+
+   .thumbnail{background:transparent;}
+   .thumbnail h4{
+    	color:black;
+    }
+    .thumbnail a:hover h4{
+     color:#369;
+    }
+     .thumbnail h5{
+    	color:#666;
+    }
+
+    .thumbnail a:hover h5{
+     color:#369;
+    }
+    .thumbnail a:hover{
+      text-decoration:none;
+     }
+    .thumbnail .block{
+    margin-top:5px;
+	padding-top:5px;
+	width:28px;
+	border-top:2px solid #666;
+    }
+    .thumbnail .fast{
+    	width:234px;
+    	height:19px;
+    	overflow:hidden;
+    	white-space:nowrap;
+    	text-overflow: ellipsis;
+    }
+    /*小图片--新闻--评测*/
+    .sport-text{margin-left:15px;}
+     .sport-text .bg{
+    	width:33px;
+    	height:20px;
+    	border:1px solid #008CD6;
+    	border-radius:5px;
+    	background:#008CD6;
+
+    	}
+    	.thumbnail {border:none;}
+    	a .bg {color:white;}
+    	a .title1{color:black;}
+    	a .subtitle{color:#666;}
+    	.sport-text .subtitle{margin-top:10px;display:block;}
+    	.sport-text .time{margin-top:20px;display:block;}
+    	.sport-text a{color:#666;}
+    	.toptitle:hover a {color:#369;}
+       .more:hover:{border-color:#369;}
+       .media p{
+   	        width:220px;
+            height:60px;
+            display:block;
+
+        }
+    .row:nth-child(even){margin-top:50px;}
+    .row:nth-child(odd){margin-top:30px;}
+    
+    .media a{color:#666;}
+    .media a:hover{color:black;}
+    .bottom p{
+    	    font-size:14px;
+			color:#666;
+               }
+    .bottom span{
+    	float:left;
+    	width:20px;
+    	height:20px;
+    	display:block;
+    	background:url('./images/man.png')no-repeat -431px -183px;
+    }
+    .bottom .wx-bg{
+    	float:left;
+    	width:20px;
+    	height:20px;
+    	display:block;
+    	background:url('./images/man.png')no-repeat -567px -184px;
+    }
+    
+    .bottom a{color:#666;}
+    .poster{
+    	width:80px;
+    	height:100px;
+    	overflow:hidden;
+    }
+    .foot-title h1{
+    	text-align:center;
+        margin-top:-20px;
+    }
+    .box{
+    	width:36px;
+    	height:36px;
+        border-radius:18px;
+		}
+	.online-serve{
+		width:120px;
+		height:30px;
+		border:1px solid #666;
+		border-radius:15px;
+		color:white;
+		line-height:30px;
+		text-indent:20px;
+	}
+	.box-wb{background:#666 url('./images/man.png')no-repeat -425px -88px;}
+	.box-wb:hover{background:red url('./images/man.png')no-repeat -425px -88px;}
+	.box-bottom{background:#666 url('./images/man.png')no-repeat -290px -85px;}
+	.box-bottom:hover{background:green url('./images/man.png')no-repeat -290px -85px;}
+	.box-tie{background:#666 url('./images/man.png')no-repeat -335px -85px;}
+	.box-tie:hover{background:#369 url('./images/man.png')no-repeat -335px -85px;}
+	.box-sanjiao{background:#666 url('./images/man.png')no-repeat -380px -90px;}
+	.box-sanjiao:hover{background:#369 url('./images/man.png')no-repeat -380px -90px;}
+	.online-serve{background:#666 url('./images/png')no-repeat -254px -93px;}
+	.online-serve:hover{background:#369 url('./images/png')no-repeat -254px -93px;}
+
+	.ft{width:100%;margin:0 auto;background:#222;}
+	.ft-head h1{text-align:center;}
+	.ft-logo{margin:10px 0 0 50px;}
+	.ft-logo div{margin:0 20px;}
+	.ft-sublogo{margin:10px 0;padding-left:145px;}
+	.outbox{height:30px;
+		    width:130px;
+		    border-left:2px solid #666;
+		    margin-left:70px;
+		    padding-left:40px;
+		}
+	.item a{
+			    color:#666;
+			    text-decoration:none;
+				padding:0 20px;
+				margin:10px 5px;
+			    }
+	.item a:hover{color:blue;}
+	.ft-item2{margin-left:50px;}
+	.ft-item5{margin-left:100px;}
+	.copyright {color:#666;text-align:center;margin-top:20px;}
+	.top{
+		position:fixed;
+		right:20px;
+		bottom:40px;
+		width:50px;
+		height:50px;
+		border:0px solid red;
+		border-radius:10px;
+		background:rgba(24,24,24,0.5);
+		
+	   }
+	.top a{color:white;text-decoration:none;}
+	.top p{padding-left:15px;}
+	.top h5{text-align:center;}
+	.top:hover{background:#369;}
+        /*--------------------------------------------------------------------*/
+         /*大屏幕下显示状态*/
+			@media(min-width:768px)
+			{
+				.navbar-nav>li:hover {
+					 background:#008CD6;
+			  }
+				.navbar-nav li {padding:10px 0 10px 0;position:relative;}
+				.navbar-nav li a{
+					font-size:18px;
+				}
+		
+
+				.navbar{position:relative;}
+			    .rightbar{
+			    	position:absolute;
+			    	top:10px;
+			    	right:25px;
+			    }
+			    .step{position:absolute;
+                      top:30px;
+                      left:-20px;
+                      font-size:12px;
+                      width:70px;
+                      height:20px;
+                      border:1px solid #ccc;
+                      border-radius:10px;
+                      display:none;
+			           }
+				.circle{
+					margin:5px;
+					width:25px;
+					height:25px;
+					border:1px solid #ccc;
+					border-radius:12px;
+					text-align:center;
+					line-height:25px;
+				}
+				.serve{background:#fff url('./images/man.png')no-repeat -34px 0px;}
+				.man{background:#fff url('./images/man.png')no-repeat -15px 0px;}
+				.search{background:#fff url('./images/man.png')no-repeat 2px 0px;}
+				.serve:hover{background:#008CD6 url('./images/man.png')no-repeat -34px -18px;}
+				.serve:hover .step{display:block;}
+				.man:hover{background:#ccc url('./images/man.png')no-repeat -15px 3px;}
+				.search:hover{background:#ccc url('./images/man.png')no-repeat 2px 3px;}
+				.search{
+					margin:5px;
+					width:25px;
+					height:25px;
+					border:none
+					border-radius:12px;
+					text-align:center;
+					line-height:25px;
+				}
+				.circle i{
+					font-size:17px;
+					color:#ccc;
+			     }
+			     
+
+
+
+				
+				.ft{width:100%;margin:0 auto;background:#222;}
+				.ft-head h1{text-align:center;}
+				 .ft-logo{margin:40px 0 0 300px;}
+				.ft-logo div{margin:0 40px;}
+				.ft-text {margin:40px 0 0 100px;}
+				.ft-text a{
+					        color:#666;
+					        text-decoration:none;
+					        padding:0 20px;
+				           }
+				.ft-text a:hover{color:blue;}
+				.copyright {color:#666;text-align:center;margin-top:20px;}
+                
+				 .cates-list{
+			     	width:1200px;
+			     	height:400px;
+			     	position:absolute;
+			     	top:60px;
+			     	left:-240px;
+			     	display:none;
+			     	z-index:3;
+			     	background:#fff;
+			      }
+
+ 				.cates-list a{	text-decoration:none;color:black;}
+			 	.cates-list>ul>li{
+			     	float:left;
+			     	width:150px;
+			     	height:30px;
+			     	line-height:30px;
+			     }
+			      .cates-list>ul>li>a{
+					font-size:16px;
+					color:black;
+			      }
+			     .cates-list>ul>li>ul{
+			     	margin-top:20px;
+			     }
+			    .cates-list>ul>li>ul>li{
+			    	height:30px;
+			    	line-height:30px;
+			    }
+			    .cates-list>ul>li>ul>li>a{
+			    	font-size:14px;
+			    	font-weight:normal;
+			    	color:black;
+			    }
+			  .navbar-list li:hover div{
+			    	display:block;
+			    }
+			   
+			}
+				
+
+
+	
+		
+ 
+    
